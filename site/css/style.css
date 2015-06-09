@@ -3,13 +3,50 @@ body {
 }
 #header {
     width: 100%;
-    height: 150px;
+    height: 75px;
     background-image: url("../img/pattern-4959.png");
     box-shadow: 2px 2px 5px black;
 
 }
 
-#header-content {
+#navbar {
+    padding-top: 20px;
+}
 
+#container a.navbar-button {
+    margin-right: 10px;
+    color: green;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 20px;
+}
 
+#navbar a.logga-in-button {
+    float: right;
+    margin-right: 100px;
+    color: red;
+    font-size: 20px;
+}
+
+#container {
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+    z-index: 2;
+}
+
+#content {
+    width: 500px;
+    background-color: yellow;
+    height: 200px;
+    z-index: 1;
+    margin: auto;
+}
+
+#hem-button {
+    color: red;
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
 }
